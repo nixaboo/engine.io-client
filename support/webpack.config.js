@@ -1,6 +1,7 @@
 
 module.exports = {
   entry: './lib/index.js',
+  target: 'node',
   output: {
     filename: 'engine.io.js',
     library: 'eio',
@@ -20,7 +21,8 @@ module.exports = {
   },
   mode: 'production',
   node: {
-    Buffer: false
+    Buffer: false,
+    fs: 'empty'
   },
   module: {
     rules: [
