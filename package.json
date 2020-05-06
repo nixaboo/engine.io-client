@@ -31,7 +31,6 @@
     "parseqs": "0.0.5",
     "parseuri": "0.0.5",
     "ws": "~7.2.1",
-    "xmlhttprequest-cookie": "^0.9.9",
     "xmlhttprequest-ssl": "~1.5.4",
     "yeast": "0.1.2"
   },
@@ -52,7 +51,8 @@
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "zuul": "3.11.1",
-    "zuul-builder-webpack": "^1.2.0"
+    "zuul-builder-webpack": "^1.2.0",
+    "zuul-ngrok": "4.0.0"
   },
   "scripts": {
     "test": "npm run lint && npm run format:check && if test \"$BROWSERS\" = \"1\" ; then npm run test:browser; else npm run test:node; fi",
