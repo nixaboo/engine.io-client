@@ -20,7 +20,9 @@ module.exports = {
   },
   mode: 'production',
   node: {
-    Buffer: false
+    Buffer: false,
+    fs: 'empty',
+    child_process: 'empty'
   },
   module: {
     rules: [
